@@ -1,11 +1,35 @@
-# LSTM_RNN-comaprison
-Add IMDb sentiment analysis using LSTM and BiGRU
-Dataset: IMDb Movie Reviews
-Task: Sentiment Classification
-Models: LSTM vs Bidirectional GRU
-LSTM Accuracy: 84.23%
-BiGRU Accuracy: 84.34%
-Best Model: Bidirectional GRU
-Preprocessing: Cleaning → Tokenization → Padding
-EarlyStopping: patience = 3
-Prediction: 0 = Negative, 1 = Positive
+# IMDb Sentiment Analysis: LSTM vs BiGRU
+
+## Overview
+Sentiment classification of IMDb movie reviews using deep learning.
+
+## Models
+- LSTM
+- Bidirectional GRU
+
+## Results
+
+| Model | Accuracy |
+|---|---:|
+| LSTM | 84.23% |
+| BiGRU | 84.34% |
+
+## Preprocessing
+- HTML tag removal
+- Text cleaning
+- Tokenization
+- Padding
+
+## Prediction
+0 = Negative
+1 = Positive
+
+## Dataset
+IMDb Movie Reviews dataset.
+
+## Technologies
+- Python
+- TensorFlow/Keras
+- Pandas
+- NumPy
+- Scikit-learn
